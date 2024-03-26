@@ -1,0 +1,75 @@
+/* checkout.css */
+
+.checkout-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.checkout-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.checkout-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.checkout-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+}
+
+.checkout-img {
+  flex: 1;
+}
+
+.checkout-img img {
+  width: 100%;
+  height: auto;
+}
+
+.checkout-details {
+  flex: 2;
+  padding: 0 10px;
+}
+
+.checkout-details h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.checkout-details h3 {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.checkout-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.checkout-buttons {
+  margin-top: 20px;
+}
+
+.checkout-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #0056b3;
+}
+
+/* You can add more styles as needed */

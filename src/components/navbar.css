@@ -1,0 +1,90 @@
+/*Nav-1*/
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #add8e6;
+  padding: 10px 20px;
+}
+.search-container input {
+  padding: 10px 100px;
+  border: none;
+}
+.logo {
+  width: 50px;
+}
+.logo img {
+  width: 100%;
+  border-radius: 50%;
+}
+.crt {
+  background-color: #04aa6d;
+  padding: 12px;
+  border-radius: 50%;
+}
+.crt a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.crt sup {
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
+/*Nav-1-end*/
+
+/*Nav-2*/
+.topnav2 {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+}
+.link-cnt {
+  padding: 12px;
+  border: 1px solid white;
+  margin: 0 5px;
+}
+.topnav2 a {
+  text-decoration: none;
+  color: white;
+}
+.link-cnt:hover {
+  background-color: #ddd;
+  color: black;
+}
+.link-cnt a:hover {
+  color: black;
+}
+.price {
+  width: 100%;
+  margin: auto;
+}
+
+/*Nav-2 End*/
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a,
+  .topnav input[type="text"],
+  .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
+  }
+  .crt {
+    padding: 1px;
+    margin: 0 0 0 5px;
+  }
+  .logo {
+    width: 100px;
+    display: none;
+  }
+}
